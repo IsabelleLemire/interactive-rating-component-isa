@@ -1,8 +1,13 @@
 .button.submit-button {
+  display: block;
+  padding: 1.6rem 0;
   width: 100%;
-  border-radius: 5rem;
-  background-color: rgb(192, 129, 2);
+  border-radius: 3rem;
+  background-color: hsl(25, 97%, 53%);
+  letter-spacing: .15rem;
   color: white;
-  display: grid;
-  place-items: center;
+  font-weight: 700;
+  cursor: pointer;
+  border: 0;
+  outline: none;
 }
